@@ -1,0 +1,10 @@
+file = open("data.txt", "w")
+file.write("Hello, this is File Handling in Python.\n")
+file.write("Python is easy to learn.")
+file.close()
+
+file = open("data.txt", "r")
+data = file.read()
+print("File Content:")
+print(data)
+file.close()
